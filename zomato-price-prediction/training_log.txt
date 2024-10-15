@@ -1,0 +1,69 @@
+INFO:root:Columns in the dataset:
+INFO:root:Index(['Unnamed: 0.1', 'Unnamed: 0', 'restaurant name', 'restaurant type',
+       'rate (out of 5)', 'num of ratings', 'avg cost (two people)',
+       'online_order', 'table booking', 'cuisines type', 'area',
+       'local address'],
+      dtype='object')
+INFO:root:Data filtered successfully.
+INFO:root:Categorical columns found:
+INFO:root:Index(['restaurant name', 'restaurant type', 'online_order', 'table booking',
+       'cuisines type', 'area', 'local address'],
+      dtype='object')
+INFO:root:Encoded column: restaurant name
+INFO:root:Encoded column: restaurant type
+INFO:root:Encoded column: online_order
+INFO:root:Encoded column: table booking
+INFO:root:Encoded column: cuisines type
+INFO:root:Encoded column: area
+INFO:root:Encoded column: local address
+INFO:root:Features and target variable defined.
+INFO:root:Mean Squared Error: 111624.95498724123
+INFO:root:Model saved successfully to models/zomato_price_predictor.pkl
+INFO:root:Preprocessing and training steps completed successfully.
+INFO:root:Columns in the dataset:
+INFO:root:Index(['Unnamed: 0.1', 'Unnamed: 0', 'restaurant name', 'restaurant type',
+       'rate (out of 5)', 'num of ratings', 'avg cost (two people)',
+       'online_order', 'table booking', 'cuisines type', 'area',
+       'local address'],
+      dtype='object')
+INFO:root:Data filtered successfully.
+INFO:root:Categorical columns found:
+INFO:root:Index(['restaurant name', 'restaurant type', 'online_order', 'table booking',
+       'cuisines type', 'area', 'local address'],
+      dtype='object')
+INFO:root:Encoded column: restaurant name
+INFO:root:Encoded column: restaurant type
+INFO:root:Encoded column: online_order
+INFO:root:Encoded column: table booking
+INFO:root:Encoded column: cuisines type
+INFO:root:Encoded column: area
+INFO:root:Encoded column: local address
+INFO:root:Features and target variable defined.
+INFO:root:Mean Squared Error: 111624.95498724123
+INFO:root:Model saved successfully to models/zomato_price_predictor.pkl
+INFO:root:Preprocessing and training steps completed successfully.
+INFO:root:Columns in the dataset:
+INFO:root:Index(['Unnamed: 0.1', 'Unnamed: 0', 'restaurant name', 'restaurant type',
+       'rate (out of 5)', 'num of ratings', 'avg cost (two people)',
+       'online_order', 'table booking', 'cuisines type', 'area',
+       'local address'],
+      dtype='object')
+INFO:root:Data filtered successfully.
+INFO:root:Categorical columns found:
+INFO:root:Index(['restaurant name', 'restaurant type', 'online_order', 'table booking',
+       'cuisines type', 'area', 'local address'],
+      dtype='object')
+INFO:root:Encoded column: restaurant name
+INFO:root:Encoded column: restaurant type
+INFO:root:Encoded column: online_order
+INFO:root:Encoded column: table booking
+INFO:root:Encoded column: cuisines type
+INFO:root:Encoded column: area
+INFO:root:Encoded column: local address
+INFO:root:Features and target variable defined.
+INFO:root:Mean Squared Error: 111624.95498724123
+INFO:root:Columns in the dataset: ['Unnamed: 0.1', 'Unnamed: 0', 'restaurant name', 'restaurant type', 'rate (out of 5)', 'num of ratings', 'avg cost (two people)', 'online_order', 'table booking', 'cuisines type', 'area', 'local address']
+INFO:root:Columns in the dataset: ['Unnamed: 0.1', 'Unnamed: 0', 'restaurant name', 'restaurant type', 'rate (out of 5)', 'num of ratings', 'avg cost (two people)', 'online_order', 'table booking', 'cuisines type', 'area', 'local address']
+INFO:root:Features and target variable defined.
+INFO:root:Mean Squared Error: 172700.5855134265
+INFO:root:Model saved successfully.

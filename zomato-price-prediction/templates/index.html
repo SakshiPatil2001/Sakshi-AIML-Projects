@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zomato Price Prediction</title>
+</head>
+<body>
+    <h1>Zomato Price Prediction</h1>
+    <form method="POST">
+        <label for="rating">Rating:</label>
+        <input type="number" step="0.1" name="rating" required><br>
+        
+        <label for="votes">Votes:</label>
+        <input type="number" name="votes" required><br>
+
+        <label for="is_veg">Is Veg (Yes/No):</label>
+        <input type="text" name="is_veg" required><br>
+        
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if prediction %}
+        <h2>Predicted Price: ₹{{ prediction }}</h2>
+    {% endif %}
+</body>
+</html>
